@@ -7,6 +7,7 @@ import os
 
 app = Flask(__name__, static_folder='.')
 CORS(app)
+init_db()
 
 # ─── DB CONFIG ─────────────────────────────────────────────
 DB_CONFIG = {
